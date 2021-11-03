@@ -10,7 +10,7 @@ oneway(formula, data)
 \item{formula}{an object of class "formula" (i.e, y ~ model).
 See \code{formula} for more details.}
 
-\item{data}{data is presented as data.frame}
+\item{data}{presented as class object \code{data.frame}}
 }
 \value{
 an object of class "oneway"
@@ -20,8 +20,8 @@ This oneway function performs a one-way analysis of variance
 for two or more numeric variables.
 }
 \details{
-This function uses \code{lm} to describe the linear relationship and \code{aggregate}
-to obtain \code{length}, \code{mean}, and \code{sd}.
+This function uses \code{lm} to describe the linear relationship between two groups and \code{aggregate}
+is used to obtain \code{length}, \code{mean}, and \code{sd} for one-way ANOVA test.
 }
 \examples{
 \dontrun{

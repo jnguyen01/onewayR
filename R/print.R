@@ -1,14 +1,15 @@
-#' @title Oneway Printing
+#' @title One-Way ANOVA Print
 #'
 #' @description
-#' Prints one-way ANOVA results.
+#' Prints one-way ANOVA results
 #'
 #' @param x object of class oneway
 #'
 #' @param ... optional arguments to \code{print} methods
 #'
 #' @details
-#' Details the outcome of the one-way ANOVA.
+#'
+#' Details the results of the one-way ANOVA test.
 #'
 #' @importFrom stats summary.lm
 #'

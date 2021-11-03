@@ -7,15 +7,15 @@
 #' @param formula an object of class "formula" (i.e, y ~ model).
 #' See \code{formula} for more details.
 #'
-#' @param data data is presented as data.frame
+#' @param data presented as class object \code{data.frame}
 #'
 #' @return an object of class "oneway"
 #'
 #' @export
 #'
 #' @details
-#'This function uses \code{lm} to describe the linear relationship and \code{aggregate}
-#'to obtain \code{length}, \code{mean}, and \code{sd}.
+#'This function uses \code{lm} to describe the linear relationship between two groups and \code{aggregate}
+#'is used to obtain \code{length}, \code{mean}, and \code{sd} for one-way ANOVA test.
 #'
 #'@importFrom stats aggregate lm na.omit sd
 #'

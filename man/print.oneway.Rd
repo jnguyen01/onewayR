@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.R
 \name{print.oneway}
 \alias{print.oneway}
-\title{Oneway Printing}
+\title{One-Way ANOVA Print}
 \usage{
 \method{print}{oneway}(x, ...)
 }
@@ -12,8 +12,8 @@
 \item{...}{optional arguments to \code{print} methods}
 }
 \description{
-Prints one-way ANOVA results.
+Prints one-way ANOVA results
 }
 \details{
-Details the outcome of the one-way ANOVA.
+Details the results of the one-way ANOVA test.
 }

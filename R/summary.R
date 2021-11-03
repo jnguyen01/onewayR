@@ -1,4 +1,4 @@
-#' @title Summarize One-Way Anova
+#' @title Summarize One-Way ANOVA
 #'
 #' @description
 #'This summary.oneway function takes object of class oneway and prints out

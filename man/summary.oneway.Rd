@@ -2,7 +2,7 @@
 % Please edit documentation in R/summary.R
 \name{summary.oneway}
 \alias{summary.oneway}
-\title{Summarize One-Way Anova}
+\title{Summarize One-Way ANOVA}
 \usage{
 \method{summary}{oneway}(x, ...)
 }
