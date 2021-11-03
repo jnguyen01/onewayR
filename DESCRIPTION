@@ -1,0 +1,13 @@
+Package: onewayR
+Title: One-Way Analysis of Variance Test
+Version: 0.0.0.9000
+Authors@R: 
+    person("Justin", "Nguyen", , "jnguyen01@wesleyan.edu", role = c("aut", "cre"))
+Description: This package performs a One-Way ANOVA test for numeric variables within 
+data frames. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
