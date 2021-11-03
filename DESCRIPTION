@@ -5,8 +5,7 @@ Authors@R:
     person("Justin", "Nguyen", , "jnguyen01@wesleyan.edu", role = c("aut", "cre"))
 Description: This package performs a One-Way ANOVA test for numeric variables within 
   data frames.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
