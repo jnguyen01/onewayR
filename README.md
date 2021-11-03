@@ -15,7 +15,7 @@ install.packages("remotes")
 library(remotes)
 }
 
-remotes::install.github("onewayR")
+remotes::install_github("jnguyen01/onewayR")
 ```
 
 ## Example
