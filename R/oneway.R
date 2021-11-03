@@ -1,29 +1,29 @@
 #'@title One-Way ANOVA Test
 #'
-#'@description
+#' @description
 #'This oneway function performs a one-way analysis of variance
 #'for two or more numeric variables.
 #'
-#'@param formula an object of class "formula" (i.e, y ~ model).
-#'Use "+" symbol to denote more than one numeric variable.
-#'@param data data is presented as data.frame
+#' @param formula an object of class "formula" i.e, y ~ model.
+#' Use "+" symbol to denote more than one numeric variable.
+#' @param data data is presented as data.frame
 #'
-#'@return an object of class "oneway"
+#' @return an object of class "oneway"
 #'
-#'@details
+#' @export
+#'
+#' @details
 #'This function uses both \code{lm} and \code{aggregate} to fit linear models
 #'and obtain \code{length}, \code{mean}, and \code{sd}, respectively.
 #'
-#'@export
+#'@importFrom stats aggregate lm na.omit sd
 #'
 #'@examples
-#'\dontrun {
+#'\dontrun{
 #'
-#'#perform one-way ANOVA
+#' #perform one-way ANOVA
 #'
-#'mydataframe <- oneway(mpg ~ wt, mtcars)
-#'
-#'
+#' mydataframe <- oneway(mpg ~ wt, mtcars)
 #'}
 #'
 

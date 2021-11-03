@@ -1,16 +1,18 @@
-#'@title Oneway Printing
+#' @title Oneway Printing
 #'
-#'@description
+#' @description
 #' Prints one-way ANOVA results.
 #'
-#'@param x object of class oneway
+#' @param x object of class oneway
 #'
-#'@param ... optional arguments to \code{print} methods
+#' @param ... optional arguments to \code{print} methods
 #'
-#'@details
+#' @details
 #'Details the outcome of the one-way ANOVA.
 #'
-#'@export
+#' @importFrom stats summary.lm
+#'
+#' @export
 #'
 print.oneway <- function(x, ...){
   if(!inherits(x, "oneway")) stop("Must be class 'oneway'")
