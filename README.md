@@ -9,12 +9,12 @@ The goal of onewayR is to provide users the ability to easily run the one-way AN
 You can install the released version of onewayR with:
 
 ``` r
-if(!require("remotes")){ }
+if(!require("remotes")){ 
 install.packages("remotes")
 library(remotes)
 }
 
-remotes::install.pgithub("onewayR")
+remotes::install.github("onewayR")
 ```
 
 ## Example
