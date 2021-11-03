@@ -1,6 +1,7 @@
 
 # onewayR
 
+![](oneway.png)
 
 The goal of onewayR is to provide users the ability to easily run the one-way ANOVA test
 
