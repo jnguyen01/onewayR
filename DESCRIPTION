@@ -1,5 +1,5 @@
 Package: onewayR
-Title: One-Way Analysis of Variance Test
+Title: One-Way Analysis of Variance Test 
 Version: 0.0.0.9000
 Authors@R: 
     person("Justin", "Nguyen", , "jnguyen01@wesleyan.edu", role = c("aut", "cre"))

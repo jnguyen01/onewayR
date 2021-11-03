@@ -1,15 +1,15 @@
 #'@title Plotting One-Way ANOVA
-#' 
-#'@description 
+#'
+#'@description
 #'Boxplots the One-Way ANOVA results
-#' 
+#'
 #'@param x an object of class oneway
 #'
-#'@param col color of each box 
+#'@param col color of each box
 #'
-#'@param ... optional arguments: See \code{plot}. 
+#'@param ... optional arguments: See \code{plot}.
 #'
-#'@return boxplot of One-Way ANOVA 
+#'@return boxplot of One-Way ANOVA
 #'
 #'@details
 #'The \code{lm} and \code{aggregate} is used to fit linear models
@@ -17,8 +17,8 @@
 #'
 #'@export
 #'
-#'@examples 
-#'\dontrun{ 
+#'@examples
+#'\dontrun{
 #'
 #'plot(mydataframe, col="blue")
 #'
