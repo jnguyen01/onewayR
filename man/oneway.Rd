@@ -7,8 +7,8 @@
 oneway(formula, data)
 }
 \arguments{
-\item{formula}{an object of class "formula" i.e, y ~ model.
-Use "+" symbol to denote more than one numeric variable.}
+\item{formula}{an object of class "formula" (i.e, y ~ model).
+See \code{formula} for more details.}
 
 \item{data}{data is presented as data.frame}
 }
@@ -20,8 +20,8 @@ This oneway function performs a one-way analysis of variance
 for two or more numeric variables.
 }
 \details{
-This function uses both \code{lm} and \code{aggregate} to fit linear models
-and obtain \code{length}, \code{mean}, and \code{sd}, respectively.
+This function uses \code{lm} to describe the linear relationship and \code{aggregate}
+to obtain \code{length}, \code{mean}, and \code{sd}.
 }
 \examples{
 \dontrun{
@@ -29,6 +29,10 @@ and obtain \code{length}, \code{mean}, and \code{sd}, respectively.
 #perform one-way ANOVA
 
 mydataframe <- oneway(mpg ~ wt, mtcars)
+
+#perform one-way ANOVA with more than two groups
+
+mydataframe <- oneway(mpg ~ wt + hp + disp + qsec)
 }
 
 }

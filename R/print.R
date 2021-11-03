@@ -8,7 +8,7 @@
 #' @param ... optional arguments to \code{print} methods
 #'
 #' @details
-#'Details the outcome of the one-way ANOVA.
+#' Details the outcome of the one-way ANOVA.
 #'
 #' @importFrom stats summary.lm
 #'

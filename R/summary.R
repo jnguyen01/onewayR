@@ -8,8 +8,6 @@
 #'
 #' @param ... optional arguments for the function: See \code{summary}.
 #'
-#' @return summary of one-way ANOVA
-#'
 #' @export
 #'
 #' @importFrom stats anova

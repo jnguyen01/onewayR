@@ -11,9 +11,6 @@
 
 \item{...}{optional arguments for the function: See \code{summary}.}
 }
-\value{
-summary of one-way ANOVA
-}
 \description{
 This summary.oneway function takes object of class oneway and prints out
 the results of the statistical test.

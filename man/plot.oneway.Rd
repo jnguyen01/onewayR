@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot.R
 \name{plot.oneway}
 \alias{plot.oneway}
-\title{Plotting One-Way ANOVA}
+\title{Plotting One-Way ANOVA Results}
 \usage{
 \method{plot}{oneway}(x, col = "skyblue", ...)
 }
@@ -11,17 +11,10 @@
 
 \item{col}{color of each box}
 
-\item{...}{optional arguments: See \code{plot}.}
-}
-\value{
-boxplot of One-Way ANOVA
+\item{...}{optional arguments: See \code{boxplot} for more details.}
 }
 \description{
-Boxplots the One-Way ANOVA results
-}
-\details{
-The \code{lm} and \code{aggregate} is used to fit linear models
-and obtain \code{length}, \code{mean}, and \code{sd}, respectively.
+Produces box plots of the One-Way ANOVA results
 }
 \examples{
 \dontrun{

@@ -1,19 +1,13 @@
-#' @title Plotting One-Way ANOVA
+#' @title Plotting One-Way ANOVA Results
 #'
 #' @description
-#'Boxplots the One-Way ANOVA results
+#' Produces box plots of the One-Way ANOVA results
 #'
 #' @param x an object of class oneway
 #'
 #' @param col color of each box
 #'
-#' @param ... optional arguments: See \code{plot}.
-#'
-#' @return boxplot of One-Way ANOVA
-#'
-#' @details
-#'The \code{lm} and \code{aggregate} is used to fit linear models
-#'and obtain \code{length}, \code{mean}, and \code{sd}, respectively.
+#' @param ... optional arguments: See \code{boxplot} for more details.
 #'
 #' @export
 #'
